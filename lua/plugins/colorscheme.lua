@@ -1,8 +1,5 @@
 return {
-  -- gruvbox
   { "ellisonleao/gruvbox.nvim" },
-
-  -- tokyonight
   {
     "folke/tokyonight.nvim",
     opts = {
@@ -15,4 +12,7 @@ return {
       },
     },
   },
+  { "EdenEast/nightfox.nvim" },
+  { "LunarVim/lunar.nvim" },
+  { "theacodes/witchhazel" },
 }
