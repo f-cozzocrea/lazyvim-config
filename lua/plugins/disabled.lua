@@ -10,4 +10,8 @@ return {
     "folke/noice.nvim",
     enabled = false,
   },
+  -- disable telescope-fzf-native since it's broken on Windows at the moment
+  { 'nvim-telescope/telescope-fzf-native.nvim',
+    enabled = false,
+  },
 }
