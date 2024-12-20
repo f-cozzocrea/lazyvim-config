@@ -6,6 +6,8 @@ vim.g.have_nerd_font = true
 
 local opt = vim.opt
 
+vim.g.snacks_animate = false
+
 -- Don't show the keypresses in the bottom line of code.
 opt.showcmd = false
 
